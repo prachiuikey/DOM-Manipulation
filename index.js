@@ -27,6 +27,11 @@ const items = document.getElementsByClassName('item');
 console.log(items);
 console.log(items[1])
 
+items[0].style.fontWeight = 'Bold';
 items[1].style.fontWeight = 'Bold';
-items[1].style.backgroundColor = 'Green';
+items[2].style.fontWeight = 'Bold';
+items[0].style.backgroundColor = 'Red';
+items[1].style.backgroundColor = 'Yellow';
+items[2].style.backgroundColor = 'Green';
+
 
